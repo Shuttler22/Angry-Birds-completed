@@ -104,7 +104,7 @@ async function  getTime(){
  var c = await b.json();
  //console.log(c.datetime.slice(11,13));
  var d = c.datetime.slice(11, 13);
- if( d <= 06 && d>=9){
+ if( d >= 06 && d<=9){
      bg = "sprites/bg1.png"
  } else {
      bg = "sprites/bg2.jpg"
